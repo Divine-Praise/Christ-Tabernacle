@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>CONTACT US</title>
+
+     <!-- link bootstrap -->
+     <script src="./js/jquery-3.5.1.min.js"></script>
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <script src="./js/bootstrap.min.js"></script>
+     <script src="./js/popper.min.js"></script>
+
+     <!-- link style css -->
+     <link rel="stylesheet" href="style.css">
+     
+     <!-- link font font-awesome -->
+     <script src="https://kit.fontawesome.com/70101c0160.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+     <!-- link google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- link contact css -->
+    <link rel="stylesheet" href="./css/contact.css">
+
+</head>
+<body>
+    <div class="contact-div">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="#" class="navbar-brnad text-white">
+                <img src="./images/christ-t2bg.png" alt="BRAND"> CHRIST TABERNACLE
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link text-white">HOME</a>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                            ABOUT<span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="leader.html" class="text-warning">OUR LEADERSHIP</a></li>
+                            <li><a href="story.html" class="text-warning">OUR STORY</a></li>
+                            <li><a href="teach.html" class="text-warning">WHAT WE TEACH</a></li>
+                        </ul>
+                    </div>
+                    <a href="testimonies.html" class="nav-item nav-link text-white">TESTIMONIES</a>
+                    <a href="news.html" class="nav-item nav-link text-white">NEWS</a>
+                    <a href="gallery.html" class="nav-item nav-link text-white">GALLERY</a>
+                    <a href="contact.html" class="nav-item nav-link text-warning">CONTACT</a>
+                </div>
+            </div>  
+        </nav>
+        <h1 class="contact-h1">CONTACT US</h1>
+    </div>
+    <div class="body">
+        <div class="wrapper">
+            <header>Send Us a Message</header>
+            <form action="#">
+                <div class="dbl-field">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Enter your name">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="email" placeholder="Enter your email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="dbl-field">
+                    <div class="field">
+                        <input type="text" name="phone" placeholder="Enter your phone">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <!-- <div class="field">
+                        <input type="text" name="website" placeholder="Enter your website">
+                        <i class="fas fa-globe"></i>
+                    </div> -->
+                </div>
+                <div class="message">
+                    <textarea name="message" placeholder="Write your message"></textarea>
+                    <i class="material-icons">message</i>
+                </div>
+                <div class="button-area">
+                    <button type="submit">Send Message</button>
+                    <span>Sending your message...</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <center>&copy; <span class="span">xxxx</span>CHRIST TABERNACLE.All right reserved</center>
+    </div>
+    <!-- link contact.js -->
+    <script src="./js/contact.js"></script>
+
+    <!-- link homejs -->
+    <script src="./js/datevalidate.js"></script>
+</body>
+</html>
