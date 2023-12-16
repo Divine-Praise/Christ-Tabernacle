@@ -627,7 +627,36 @@
         width: 60px;
     }
     .nav-div{
-        height: 100vh;
+        height: auto;
+        padding-bottom: 130px;
+    }
+    .testimony-div{
+        height: auto;
+        padding-bottom: 150px;
+    }
+    .gallery-div{
+        height: auto;
+        padding-bottom: 150px;
+    }
+    .leader-div{
+        height: auto;
+        padding-bottom: 150px;
+    }
+    .story-div{
+        height: auto;
+        padding-bottom: 150px;
+    }
+    .teach-div{
+        height: auto;
+        padding-bottom: 150px;
+    }
+    .news-div{
+        height: auto;
+        padding-bottom: 150px;
+    }
+    .contact-div{
+        height: auto;
+        padding-bottom: 150px;
     }
     .readmore-h2-2{
         text-align: center;
