@@ -837,9 +837,6 @@
     .main-content .par{
         margin-inline: 30px;
     }
-    .nav-div{
-        height: auto;
-    }
 }
 @media(max-width: 400px){
     .main-content .par{
